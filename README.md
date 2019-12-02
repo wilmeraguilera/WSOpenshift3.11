@@ -1,5 +1,5 @@
-# WSOpenshift3.11
-Este curso pretende ser una guia para la gestión de aplicaciones de Openshift 3.11
+# Openshift3.11
+A continuación se presentan una serie de guias para la gestión de aplicaciones de Openshift 3.11
 
 
 
