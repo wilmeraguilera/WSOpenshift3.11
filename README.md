@@ -5,7 +5,7 @@ A continuación se presentan una serie de guias para la gestión de aplicaciones
 
 Laboratorios
 
-1. [Rollback](talleres/tallerRollback.md)
+1. [Rollback](talleres/taller-rollback.md)
 2. Curso 2
 3. Curso 3
 
