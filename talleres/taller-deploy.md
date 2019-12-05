@@ -4,6 +4,6 @@ A continuación se define un comando de ejemplo para la creación del config-map
 
 ```
 oc create configmap map-app --from-file=application.properties 
-
+```
 
 # Delete
