@@ -12,7 +12,7 @@ oc rollout history <<deployment config>>
 
 Ejemplo:
 
-``
+```
 [waguilera@localhost idea-pipeline-spring]$ oc rollout history dc/calculadora-spring
 deploymentconfigs "calculadora-spring"
 REVISION	STATUS		CAUSE
@@ -20,7 +20,7 @@ REVISION	STATUS		CAUSE
 2		Complete	manual change
 3		Complete	manual change
 4		Complete	manual change
-``
+```
 
 Si se desea realizar un rollback se debe indicar el numero de la revisión del deployment config y ejecutar el siguiente comando.
 
