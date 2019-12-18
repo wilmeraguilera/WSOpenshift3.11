@@ -25,12 +25,12 @@ REVISION	STATUS		CAUSE
 Si se desea realizar un rollback se debe indicar el numero de la revisión del deployment config y ejecutar el siguiente comando.
 
 ``
-oc rollback <<deployment config>> --to-version=2
+oc rollout undo dc/<name> --to-revision = ?
 ``
 
 Ejemplo:
 
 ```
-[waguilera@localhost idea-pipeline-spring]$ oc rollback dc/calculadora-spring --to-version=2
-deploymentconfig.apps.openshift.io/calculadora-spring deployment #5 rolled back to calculadora-spring-2
+[waguilera@localhost idea-pipeline-spring]$ oc rollout undo dc/calculadora-spring --to-revision=4
+deploymentconfig.apps.openshift.io/calculadora-spring rolled back
 ```
