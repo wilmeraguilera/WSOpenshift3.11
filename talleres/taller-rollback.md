@@ -7,8 +7,10 @@ del historial de configuraciones de despliegue.
 El comando para ver los historiales del Deployment Config es el siguiente
 
 ``
-oc rollout history dc/calculadora-spring
+oc rollout history <<deployment config>>
 ``
+
+Ejemplo:
 
 ``
 [waguilera@localhost idea-pipeline-spring]$ oc rollout history dc/calculadora-spring
@@ -25,9 +27,10 @@ Si se desea realizar un rollback se debe indicar el numero de la revisión del d
 ``
 oc rollback <<deployment config>> --to-version=2
 ``
+
 Ejemplo:
+
 ``
 [waguilera@localhost idea-pipeline-spring]$ oc rollback dc/calculadora-spring --to-version=2
 deploymentconfig.apps.openshift.io/calculadora-spring deployment #5 rolled back to calculadora-spring-2
-
 ``
