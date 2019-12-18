@@ -30,7 +30,7 @@ oc rollback <<deployment config>> --to-version=2
 
 Ejemplo:
 
-``
+```
 [waguilera@localhost idea-pipeline-spring]$ oc rollback dc/calculadora-spring --to-version=2
 deploymentconfig.apps.openshift.io/calculadora-spring deployment #5 rolled back to calculadora-spring-2
-``
+```
